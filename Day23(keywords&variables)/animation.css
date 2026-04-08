@@ -1,0 +1,176 @@
+h1{
+    text-align: center;
+    color: red;
+    background: linear-gradient(yellow);
+}
+.box{
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    background: black;
+    margin: 10vh auto;
+
+    animation-name: car;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+/* output square to circle not circle to square */
+
+/* @keyframes car{
+    from{
+        background: red;
+        border-radius: 0%;
+    }
+    to{
+        background: yellow;
+        border-radius: 50%;
+    }
+} */
+
+/* @keyframes car{
+    0%{
+        border-radius: 0%;
+        background: greenyellow;
+    }
+    50%{
+        border-radius: 50%;
+        background: crimson;
+    }
+    100%{
+        border-radius: 0%;
+        background: greenyellow;
+    }
+} */
+
+@keyframes car{
+    0%{
+        border-radius: 0%;
+        height: 200px;
+        width: 200px;
+        background: pink;
+    }
+    25%{
+        border-radius: 0%;
+        width: 400px;
+        background: blue;
+    }
+    50%{
+        border-radius: 50%;
+        width: 400px; 
+        background: yellow;
+    }
+    75%{
+        border-radius: 50%;
+        background: coral;
+    }
+    100%{
+        border-radius: 0%;
+        height: 200px;
+        width: 200px;
+    }
+}
+.circle{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    background: conic-gradient(yellow,red,green);
+    margin: 20vh auto;
+
+    /* animation-name: square;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    animation: square 3s infinite;
+}
+@keyframes square{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        border-radius: 50%;
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* loading animation */
+
+.loading{
+    /* border: solid 1px black; */
+    border: none;
+    height: 200px;
+    width: 200px;
+    /* background: conic-gradient(blue,white); */
+    background: repeating-conic-gradient(blue,white 20%);
+    margin: 20vh auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: load 5s infinite linear reverse;
+
+}
+.block{
+    height: 90%;
+    width: 90%;
+    background: white;
+    border-radius: 50%;
+}
+@keyframes load{
+    0%{
+         transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+h2{
+    text-align: center;
+    color: red;
+    background: lightsalmon;
+
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background: black;
+    margin: 20vh auto;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background: yellowgreen;
+
+    animation: run 1s infinite ;
+
+}
+@keyframes run{
+    0%{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        position: relative;
+        top: 0;
+        left: 300px;
+    }
+    50%{
+        position: relative;
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        position: relative;
+        top: 300px;
+        left: 0;
+    }
+    100%{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,100 @@
+.square{
+    border: solid 2px black;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: auto;
+}
+.rect{
+    border: solid 2px black;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(199, 28, 211);
+    margin: auto;
+}
+.circle{
+    border: solid 2px black;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(44, 176, 206);
+     margin: auto;
+}
+.ovel{
+    border: solid 2px black;
+    height: 150px;
+    width: 400px;
+    border-radius:50%;
+    background-color: rgb(0, 255, 0);
+     margin: auto;
+}
+.leaf{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    /* border-radius:50%; */
+    /* border-radius: 100% 0%; */
+    border-top-left-radius:100% ;
+    border-bottom-right-radius:100% ;
+    background-color: green;
+     margin: auto;
+}
+.cube{
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    border-top:solid 100px red;
+    border-bottom:solid 100px rgb(0, 98, 255);
+    border-left:solid 100px rgb(0, 255, 30);
+    border-right:solid 100px rgb(164, 204, 7);
+    background-color:white;
+     margin: auto;
+
+}
+.chatbox{
+    border: solid 1px teal;
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+    border-radius: 0% 100% 100% 100%;
+    margin: auto;
+}
+.box{
+    height: 200px; 
+
+    
+    width: 200px;
+    margin: auto;
+    display: block;
+    
+    /* transformation properties */
+
+    /* transform: rotate(180deg); */
+    /* transform: rotateX(60deg);
+    transform: rotateY(60deg);
+    transform: skew(-30deg);
+    transform: scale(1.5); */
+    transform: scale(1) skew(30deg);
+}
+.emoji{
+    height: 200px;
+    display: block;
+    margin: 10vh auto;
+    
+/*     
+    filter propertie */
+
+
+    /* box-shadow: 10px 10px 5px red; */
+    filter: drop-shadow(10px 10px 5px gray);
+    /* filter: brightness(120%); */
+    /* filter: contrast(50%); */
+    /* filter: saturate(100%); */
+    /* filter: opacity(.5); */
+
+}
+
+/* h1{
+     margin: auto;
+     text-align: center;
+} */

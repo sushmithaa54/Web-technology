@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container1{
+    /* place-content: center; */
+    /* background-image: url(./images/netflixbackgroundimage.jpg),linear-gradient(black,black); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.774)),url(./images/netflixbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    place-items: center;
+    
+
+
+    
+    .header{
+    display: flex;
+    width: 80%;
+    justify-content:space-between;
+    padding: 2vh;
+    
+    
+    
+    .netflix{
+        height: 100%;
+        h1{
+                color: orangered;
+                font-size: 7vh;
+            }
+        }
+    .beside{
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+        place-items: center;
+
+       .button{
+        height: 100%;
+        width:50%;
+        text-align: center;
+        place-content: center;
+        
+       }
+
+      .buttonn{
+        width: 50%;
+         button{
+        width: 100%;
+        height: 70%;
+        background-color: red;
+        color: white;
+        font-size: large;
+       }
+       button:hover{
+        cursor: pointer;
+        background-color:orangered ;
+       }
+
+      }
+    }
+
+}
+
+.header2{
+    text-align: center;
+    place-content: center;
+    width: 50%;
+    margin-top: 25vh;
+    
+    padding: 5vh 0;
+    h1{
+        color: white;
+        font-size: 9vh;
+
+    }
+    h2{
+        font-size: 3vh;
+        color: white;
+    }
+    .foremail{
+        
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        .box1{
+            
+            width: 80%;
+            #email{
+            width: 100%;
+            height: 8vh;
+            padding-left: 2vh;
+            background-color: rgba(0, 0, 0, 0.406);
+            color: white;
+            border: solid 1px gray;
+        }
+        }
+        .box2{
+            width: 50%;
+            margin-left: 1vh;
+            button{
+                background-color: orangered;
+                color: white;
+                width: 100%;
+                height: 100%;
+                font-size: 5vh;
+            }
+        }
+
+        
+    }
+}
+}
+
+.container2{
+    
+    background-color: black;
+    .trending{
+        
+        width: 80%;
+        margin: auto;
+        h1{
+        color: white;
+    }
+    }
+    .films{
+        
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        overflow:auto;
+        width: 80%;
+        margin: auto;
+
+        .images{
+            height: 300px;
+            width: 200px;
+
+            border: solid 1px black;
+            margin: 2vh 1vw;
+            border-radius: 5%;
+
+            
+        }
+       
+        .images:hover{
+            transform: scale(1.1);
+            transition: all 0.3s;
+        }
+        .im1{
+                background-image: url(./images/durandar.webp);
+                background-size: cover;
+            }
+            .im2{
+                background-image: url(./images/border2.webp);
+                background-size: cover;
+            }
+            .im3{
+                background-image: url(./images/one\ piece.webp);
+                background-size: cover;
+            }
+            .im4{
+                background-image: url(./images/kapilsharma);
+                background-size: cover;
+            }
+            .im5{
+                background-image: url(./images/madeinkorea);
+                background-size: cover;
+            }
+            .im6{
+                background-image: url(./images/withlove);
+                background-size: cover;
+            }
+            .im7{
+                background-image: url(./images/taskare);
+                background-size: cover;
+            }
+            .im8{
+                background-image: url(./images/tereishkmain);
+                background-size: cover;
+            }
+            .im9{
+                background-image: url(./images/warmachine);
+                background-size: cover;
+            }
+            .im10{
+                background-image: url(./images/peakyblinder);
+                background-size: cover;
+            }
+
+    }
+
+    .more{
+        width: 80%;
+        margin: auto;
+        h1{
+            color: white;
+        }
+    }
+
+    .join{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        justify-content:space-around;
+        .image2{
+            height: 280px;
+            width: 300px;
+            background-image: linear-gradient(to bottom right,rgb(25, 25, 36) 90%,red);
+            border-radius: 9%;
+            margin: 0 1vh;
+            border: solid 1px black;
+            h1{
+                font-size: 3.5vh;
+                color: white;
+                padding: 4vh 2vh 0 2vh;
+            }
+            p{
+                color: white;
+                padding: 3vh 2vh 0 2vh;
+                font-size: 2.5vh;
+            }
+            
+        }
+    }
+
+    .frequently{
+        width: 80%;
+        margin: auto;
+        h1{
+            color: white;
+        }
+    }
+    .questions{
+        height: 80vh;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        
+
+        
+        .que6{
+            border: solid 1px black;
+            margin: 1vh 0;
+            display: flex;
+            justify-content: space-between;
+            place-items: center;
+            background-color: rgba(50, 49, 49, 0.963);
+          
+            h2{
+                color: white;
+                padding-left: 3vh;
+            }
+            .plus{
+                width: 50%;
+                text-align: end;
+                padding-right: 3vh;
+                font-size: 4vh;
+            }
+            
+        }
+        .que6:hover{
+            background-color: rgb(67, 66, 66);
+            cursor: pointer;
+        }
+    }
+    .ready_to_watch{
+        p{
+            color: white;
+            font-size: 3vh;
+            text-align: center;
+        }
+    }
+    .foremail2{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        .box1{
+            
+            width: 80%;
+            #email{
+            width: 100%;
+            height: 8vh;
+            padding-left: 2vh;
+            background-color: black;
+            color: white;
+            border: solid 1px gray;
+        }
+        }
+        .box2{
+            width: 50%;
+            margin-left: 1vh;
+            button{
+                background-color: red;
+                color: white;
+                width: 100%;
+                height: 100%;
+                font-size: 5vh;
+            }
+        }
+    }
+    .call{
+        width: 80%;
+        margin: auto;
+        p{
+            color: white;
+            a{
+                color: white;
+            }
+        }
+    }
+    .footer{
+        
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        width: 80%;
+        margin: auto;
+        .box4{
+            display: flex;
+            flex-direction: column;
+            place-content: center;
+            row-gap: 2vh;
+            a{
+                color: rgb(180, 174, 174);
+            }
+        }
+    }
+    .foot_select,.netflix_india,.this_page{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+@media (min-width:1px) and (max-width:576px)
+{
+    .container1{
+        
+        .header{
+            
+            .netflix{
+                h1{
+                    font-size: 4vh;
+                }
+            }
+            .beside{
+                width: 50%;
+            }
+        }
+
+        .header2{
+            width: 100%;
+            margin: 20vh auto;
+            
+            
+            h1{
+                font-size: 5vh;
+            }
+            h2{
+                font-size: 2.5vh;
+            }
+            .foremail{
+                flex-direction: column;
+                row-gap: 2vh;
+                width: 100%;
+                place-items: center;
+                .box2{
+                    button{
+                        width: 150px;
+                        height: 50px;
+                        font-size: small;
+                    }
+                }
+                
+            }
+        }
+
+    }
+    .container2{
+
+        .more{
+            h1{
+                font-size: 4vh;
+            }
+        }
+        .join{
+            grid-template-columns: 1fr;
+            row-gap: 1vh;
+        }
+
+        .frequently{
+            h1{
+                font-size: 3.2vh;
+            }
+        }
+
+        .questions{
+            .que6{
+                h2{
+                    font-size:2.5vh;
+                    width: 100%;
+                }
+            }
+        }
+
+        .ready_to_watch{
+            p{
+                text-align: justify;
+            }
+        }
+        .foremail2{
+            flex-direction: column;
+            row-gap: 1.5vh;
+            width: 100%;
+            margin-left: 2vh;
+           
+            .box2{
+                button{
+                    font-size: small;
+                    height: 6vh;
+                }
+            }
+        }
+
+      .footer{
+        grid-template-columns: 1fr;
+        row-gap: 2vh;
+      }  
+
+    }
+}

@@ -1,0 +1,24 @@
+.p1{
+    text-align: justify;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+    font-variant:normal;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(21, 228, 52);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px ;
+    overflow: auto;
+    
+}
+h1{
+text-align:center;
+    width: 90%;
+    margin: auto;
+    text-shadow: 10px 10px 5px gray;
+}

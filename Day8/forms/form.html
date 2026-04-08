@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st form</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+<body>
+    <div class="hii">
+    <form style="background-color: rgb(145, 142, 181);">
+        <label for=""> User Name</label>
+        <br>
+        <input type="text" name="fname" placeholder="enter first name">
+        <input type="text" name="lname" placeholder="enter last name">
+        <br>
+        <br>
+        <lable>Age</lable>
+        <input type="age" name="age" placeholder="enter age" min="0" max="99">
+        <br>
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="email" name="email" placeholder="enter email addres">
+        <br>
+        <br>
+        <label >Password</label>
+        <br>
+        <input type="password" name="pswrd" placeholder="enter password">
+        <br>
+        <br>
+        <lable> Date-Time</lable>
+        <br>
+        <lable> DOB</lable>
+        <input type="date" name="date">
+        <br>
+        <br>
+        <lable> TIME</lable>
+        <input type="time" name="time">
+        <br>
+        <br>
+        <lable> REMAINDER</lable>
+        <input type="datetime-local" name="datetime">
+        <br>
+        <br>
+        <lable>MONTH</lable> <!--FOR SALES REMAINDER-->
+        <input type="month" name="month">.
+        <br>
+        <br>
+        <lable>WEEK</lable> <!--FOR SALES REMAINDER-->
+        <input type="week" name="week">
+        <br>
+        <br>
+        <lable>Contact</lable> <br><br>
+        <lable>NUMBER</lable> 
+        <input type="tel" name="call" placeholder="enter number" pattern="[6-9]{1}[0-9]{9}">
+        <br>
+        <br>
+        <lable>URL/WEBLINK</lable>
+        <input type="url" name="url" placeholder="enter the website address">
+        <br>
+        <br>
+        <lable>SEARCH</lable>
+        <input type="search" name="search" placeholder="type somthing.....!">
+        <br>
+        <br>
+        <lable>Range</lable>
+        <input type="range" name="range" min="0" max="10">
+        <br>
+        <br>
+        <lable>Color</lable>
+        <input type="color" name="color">
+        <br><br>
+         <lable>File</lable>
+        <input type="file" name="file">
+        <br>
+        <br>
+        <lable>Gender</lable>
+        <br><br>
+        <label for="m">male</label>
+        <input type="radio" name="gender" value="male" id="m">
+        
+        <label for="f">female</label>
+        <input type="radio" name="gender" value="female" id="f">
+        
+        <label for="o">others</label>
+        <input type="radio" name="gender" value="others" id="o">
+        <br>
+        <br>
+        <!-- <lable>Check Box</lable> -->
+       
+        <lable>Languages</lable>
+        <br>
+        <lable>kannada</lable>
+        <input type="checkbox" name="lang" value="kan">
+        <lable>english</lable>
+        <input type="checkbox" name="lang" value="eng">
+        <lable>hindi</lable>
+        <input type="checkbox" name="lang" value="hin">
+        <br>
+        <br>
+        <label>Places</label>
+        <select name="place">
+            <option name="ma">maldivs</option>
+            <option name="sin">singapore</option>
+            <option name="ko">korea</option>
+            <option name="chi">chaina</option>
+            <option name="ja">japan</option>
+        </select>
+        <br>
+        <br>
+        <!--COMMENT BOX-->
+        <textarea name="cmnt" placeholder="comment box" rows="10" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit" value="Register">
+    </form>
+    </div>
+</body>
+</html>

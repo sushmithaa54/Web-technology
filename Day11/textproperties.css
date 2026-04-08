@@ -1,0 +1,14 @@
+.p1{
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    text-indent: 10px;
+    text-transform: capitalize;
+    
+    /* text decoration */
+    text-decoration-line: underline;
+    text-decoration-color: plum;
+    text-decoration-thickness: 2px;
+    text-decoration-style: double;
+
+}

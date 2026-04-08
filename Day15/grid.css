@@ -1,0 +1,21 @@
+.box{
+    border: solid 2px black;
+   
+    width: 50%;
+    background-color: blue;
+    margin: auto;
+     display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+.square{
+    border: solid 1px white;
+    height: 70px;
+    width: 70px;
+    background-color: palevioletred;
+
+   
+}

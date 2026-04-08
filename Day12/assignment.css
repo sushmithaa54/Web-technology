@@ -1,0 +1,19 @@
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 50px solid white;
+  border-right: 50px solid white;
+  border-bottom: 100px solid red;
+  margin: auto;
+}
+.triangle2{
+    border: solid 2px black;
+    height: 0px;
+    width: 0px;
+    border-top:solid 100px white;
+    border-bottom:solid 100px rgb(0, 98, 255);
+    border-left:solid 100px white;
+    border-right:solid 100px white;
+    background-color:white;
+    margin: auto;
+}

@@ -1,0 +1,20 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+.c1{
+    color: white;
+    background-color: red;
+    
+}
+.c2{
+    color: #4c23df;
+    background-color:#ffffff;
+}
+#c3{
+    color:white;
+    background-color:rgb(0, 255,0);
+}
+*{
+    text-align: center;
+}

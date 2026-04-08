@@ -1,0 +1,40 @@
+*{
+    padding: 0;bottom: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.box{
+    border: solid 2px red;
+    background-color: beige;
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 400px;
+}
+.box2{
+    border: solid 2px blue;
+    background-color: rgb(238, 113, 17);
+    height: 300px;
+    width: 300px;
+    position: sticky;
+    top: 0;
+}
+.box3{
+     border: solid 2px rgb(255, 149, 0);
+    background-color: rgb(255, 182, 245);
+    height: 200px;
+    width: 300px;
+    position: relative;
+    z-index: -1;
+}
+.circle{
+    border: solid 2px black;
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

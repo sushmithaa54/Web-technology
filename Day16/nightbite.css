@@ -1,0 +1,459 @@
+*{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    border: solid 1px transparent;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.241);
+    position: fixed;
+    top: 0;
+}
+.header{
+    height:100px;
+    display:flex;
+    align-items:center;
+    position:fixed;
+    top:0;
+    right:80px;
+    cursor: pointer;
+}
+.ul1{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+li{
+    transform: all 1s;
+    padding: 10px;
+    text-align: center;
+    place-content: center;
+    
+    
+}
+a:hover{
+    color: rgb(198, 92, 198);
+}
+.logo{
+    
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    place-content: center;
+    text-align: center;
+    img{
+        height: 120px;
+        width: 200px;
+    }
+}
+.container{
+   border: solid 1px transparent;
+    height: 100vh;
+    width: 100%;
+    background:url(./burger1.jpg) no-repeat center/cover;
+    text-align: center;
+    place-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container2{
+    border: solid 1px transparent;
+    height: 100vh;
+    width: 100%;
+    background:url(./container2img.jpg) no-repeat center/cover;
+    text-align: center;
+    place-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.tt{
+    height: 100px;
+    width: 70vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10vh;
+
+
+}
+button{
+    border: solid 1px white;
+     background-color:rgba(14, 13, 13, 0.648);
+     color: white;
+    height: 70px;
+    width: 210px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.img1{
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.img2{
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+button:hover{
+     transform: scale(1.1);
+     transform: all 1s;
+}
+.hii{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.features{
+    border: solid 1px  white;
+   
+   margin-left: 200px;
+    display: flex;
+    row-gap: 0;
+    column-gap:50px
+}
+img{
+    width: 100px;
+    margin: auto;
+
+}
+.next{
+     border: solid 1px transparent;
+    height: 100vh;
+    width: 100%;
+    background:url(./burger2.jpg) no-repeat center/cover;
+    text-align: center;
+    place-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.next2{
+     border: solid 1px transparent;
+    height: 100vh;
+    width: 100%;
+    background:url(./burger3.jpg) no-repeat center/cover;
+    text-align: center;
+    place-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.button{
+    border-radius:20px ;
+    border: solid 2px white;
+    font-weight: bold;
+    font-size: large;
+   
+
+}
+.email{
+    height: 50px;
+    width: 50px;
+    
+}
+.c1{
+    border: solid 1px white;
+    height: 200px;
+    width: 40vh;
+    margin-left: 20px;
+}
+.c2{
+    border: solid 1px white;
+    height: 200px;
+    width: 50vh;
+    margin-left: 20px;
+}
+.c3{
+    border: solid 1px white;
+    height: 200px;
+    width: 50vh;
+    margin-left: 20px;
+}
+.c4{
+    border: solid 1px white;
+    height: 200px;
+    width: 50vh;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.c5{
+    border: solid 1px white;
+    height: 200px;
+    width: 50vh;
+    margin-left: 20px;
+     margin-top: 30px;
+}
+.c6{
+    border: solid 1px white;
+    height: 100px;
+    width: 100vh;
+    margin-left: 20px;
+     margin-top: 30px;
+}
+
+.call{
+    height: 40px;
+    width: 40px;
+}
+ul{
+    text-align: center;
+    padding: 20px;
+   
+}
+.input{
+    border-radius: 10px;
+    height: 5vh;
+    width: 30vh;
+}
+.video{
+    height: 3vh;
+    width: 10vh;
+   
+  
+    
+}
+.contact{
+    margin-left: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.containar3{
+    margin-left: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-evenly;
+}
+.c32{
+    border: solid 1px white;
+    height: 200px;
+    place-content: center;
+    width: 600px;
+    font-family: fantasy;
+     margin-top: 90px;
+     font-size: x-large;
+}
+.c33{
+    border: solid 1px white;
+    height: 400px;
+    width: 700px;
+    place-content: center;
+    font-family: fantasy;
+    margin-left: 80px;
+     margin-top: 60px;
+      font-size: x-large;
+}
+.c34{
+    border: solid 1px white;
+    height: 400px;
+    width: 500px;
+    margin-left: 10px;
+     margin-top: 35px;
+     img{
+        height: 50vh;
+        width: 70vh;
+     }
+}
+.c35{
+    border: solid 1px white;
+    height: 400px;
+    width: 500px;
+    margin-left: 20px;
+     margin-top: 30px;
+     img{
+        margin-top: 50px;
+        margin-left: 60px;
+        height: 50vh;
+        width: 70vh;
+     }
+}
+.c36{
+    border: solid 1px white;
+    height: 400px;
+    width: 700px;
+    margin-left: 20px;
+    font-family: fantasy;
+     margin-top: 70px;
+     place-content: center;
+      font-size: x-large;
+}
+.c37{
+    border: solid 1px transparent;
+    height: 200px;
+    width: 700px;
+    place-content: center;
+    margin-left: 80px;
+     margin-top: 10px;
+      font-size: x-large;
+      
+}
+.follow{
+   font-size: x-large;
+    
+}
+.c38{
+    border: solid 1px white;
+    height: 400px;
+    width: 100vh;
+    margin-left: 20px;
+     margin-top: 30px;
+    
+
+}
+footer{
+    
+    height: 6vh;
+    width: 100%;
+    background-color: rgb(188, 59, 162);
+    text-align: center;
+    place-content: center;
+    color: white;
+    background: linear-gradient(to right ,rgb(215, 94, 221),rgb(225, 82, 137));
+}
+.logos{
+    width: 100%;
+    margin: auto;
+    margin-left: 80vh;
+    img{
+        height: 50px;
+        width: 100px;
+        
+    }
+}
+h3{
+    place-content: center;
+}
+.c31{
+     border: solid 1px white;
+    height: 98px;
+    width: 479px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    justify-content: center;
+    margin: auto;
+    
+    img{
+        height: 20vh;
+        width: 40vh;
+
+    }
+
+     
+}
+.content{
+    background: url(./iiii.jpg) no-repeat center/cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item1 h1{
+    color: white;
+    font-size: 40px;
+}
+.add{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item2 h1{
+    color: white;
+    font-size: 40px;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item3 h1{
+    color: white;
+    font-size: 40px;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item4 h1{
+    color: white;
+    font-size: 40px;
+}
+.item5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item5 h1{
+    color: white;
+    font-size: 40px;
+}
+.item6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item6 h1{
+    color: white;
+    font-size: 40px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 60px;
+    column-gap: 50px;
+    width: 100%;
+    margin-top: 100px;
+    place-items: center;
+}
+.fries{
+    height: 150px;
+    width: 100px;
+}

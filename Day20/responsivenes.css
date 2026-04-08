@@ -1,0 +1,28 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+}
+.box{
+    height: 100vh;
+    width: 50%;
+}
+.c1{background-color: palevioletred;}
+.c2{background-color: skyblue;}
+
+@media screen and (max-width:600px) {
+    .container{
+        display: block;
+    }
+    .box{
+        width:100%
+    }
+    .c1{
+        display: none;
+    }
+    
+}
+
