@@ -44,10 +44,6 @@ arr3.forEach((value,key)=>{
     console.log(`elements:${value} and index:${key}`)
 })
 
-
-
-
-
 console.warn('using map method')
 let a=arr3.map((value,key)=>{
     return `${value}:${key}`

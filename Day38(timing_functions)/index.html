@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; background-color:rgb(174, 126, 219)">timer methods</h1>
+
+    <h1>settimeout and cleartimeout</h1>
+    <button onclick="x=setTimeout(fun,2000)">
+        start
+    </button>
+    <button onclick="clearTimeout(x)">stop</button>
+    <hr>
+    <h1>setinterval and clearinterval</h1>
+    <button onclick="y=setInterval(fun,2000)">
+        start
+    </button>
+    <button onclick="clearInterval(y)">stop</button>
+    <script src="./script.js"></script><hr>
+     <h1>example for timer</h1>
+    <button onclick="z=setInterval(fun1,1000)">start</button>
+    <button onclick="clearInterval(z)">stop</button>
+    <button onclick="reset()">reset</button><hr>
+    <h1>print numbers 1-10(every 1 sec)</h1>
+
+    <button onclick="timer()">timer</button>
+    <button onclick="timer1()">reverse timer</button>
+    <hr>
+</body>
+</html>
