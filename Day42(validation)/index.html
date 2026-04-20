@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="validate(event)">
+        <h1>Validation</h1>
+        <input type="email" placeholder="Enter enmail addres">
+        <input type="password" placeholder="Enter password">
+        <div class="err"></div>
+        <button>login</button>
+        
+        </form>
+
+    </div>
+    <div class="container">
+        <form onsubmit="login1(event)">
+        <h1>Validation</h1>
+        <input type="email" placeholder="Enter enmail addres">
+        <input type="password" placeholder="Enter password">
+        <div class="loginn"></div>
+        <button>login</button>
+        
+        </form>
+        
+    </div>
+
+    <button onclick="currentlocation()"></button>
+    <script src="./script.js"></script>
+</body>
+</html>

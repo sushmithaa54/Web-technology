@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./domform.css">
+</head>
+<body>
+    <div class="container">
+        <h1>printing student details </h1>
+        <form onsubmit="handleinput(event)">
+            <input type="text" placeholder="student fname"><br><br>
+            <input type="text" placeholder="student lname"><br><br>
+            <input type="date" placeholder="DOB"><br><br>
+            <input type="text" placeholder="place"><br><br>
+           <button>print details</button>
+        </form>
+    </div>
+    <h1 id="printname"></h1>
+    <div class="container1">
+        <button class="btn" onclick="color()">add color</button>
+    </div>
+    <script src="./domform.js"></script>
+</body>
+</html>

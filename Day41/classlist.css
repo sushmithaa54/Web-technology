@@ -1,0 +1,21 @@
+button{
+    display: block;
+    margin: 2vh auto;
+    width: 20vh;
+    padding: 5px 0;
+    background: lightblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.on{
+    background: green;
+
+}
+.off{
+    background: red;
+}
+.on,.off{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
