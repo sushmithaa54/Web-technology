@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./otpvalidation.css">
+</head>
+<body>
+    <div class="container">
+    <button onclick="generate_otp()">
+        get otp
+    </button>
+    <h1 id="display"></h1>
+
+    <input type="text" placeholder="enter 4 digit otp">
+    <h2></h2>
+    <button onclick="verify()">verify otp</button>
+    
+    </div>
+    <div class="container">
+        <input type="password" placeholder="enter password" id="input2">
+        <input type="password" placeholder="confirm password" id="input3">
+        <h5></h5>
+        <button>verify password</button>
+    </div>
+    <script src="./otpvalidation.js"></script>
+</body>
+</html>

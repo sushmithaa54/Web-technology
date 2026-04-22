@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +7,9 @@
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
+/* body{
+    background:radial-gradient(white,burlywood,burlywood,burlywood)
+} */
 
 header{
     height: 10vh;
@@ -101,6 +106,7 @@ header{
    
     }
     .c2{
+    
     background: white;
     box-shadow: 0 0 20px burlywood;
     height: 80vh;
@@ -149,7 +155,8 @@ header{
 }
 
 .container2{
-    height: 90vh;
+    /* border: solid 2px; */
+    height: 100vh;
     width: 100%;
     background:linear-gradient(to bottom right,burlywood 50%,white 50%);
     padding: 10vh;
@@ -171,6 +178,8 @@ header{
     
     
     .c3{
+        padding-bottom: 6vh;
+        scrollbar-width: none;
         height: 70vh;
         width: 80%;
         margin: 5vh auto;
@@ -204,13 +213,16 @@ header{
         
 
     }
+    .c3:hover{
+        scrollbar-width: auto;
+    }
 
 }
 
 .container3{
     padding: 4vh;
     width: 100%;
-    height: 90vh;
+    height: 180vh;
     background: linear-gradient(white,burlywood);
     .project{
         margin: auto;
@@ -230,22 +242,37 @@ header{
     }
     .pros{
         width: 80%;
-       margin-top: 5vh;
+        margin-top: 5vh;
         border-radius: 20px;
         margin: 5vh auto;
         display: grid;
-        grid-template-columns: repeat(3,auto);
+        grid-template-columns: repeat(2,auto);
         justify-content: space-evenly;
         row-gap: 4vh;
         column-gap: 2vh;
+       
     .pro{
         /* border: solid 2px black; */
-        height: 250px;
-        width: 300px;
-        background: rgba(244, 243, 241, 0.192);
+        
+        height: 350px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        justify-content: space-evenly;
+        /* background: rgba(244, 243, 241, 0.192); */
         box-shadow: 0 0 20px gray;
         padding: 10px 10px;
-        
+        .div1{
+            width: 80%;
+            text-align: justify;
+        place-content: center;
+        margin-left: 2vh;
+
+        }
+        img{
+            /* height: 50%; */
+            width: 100%;
+        }
 
         h3{
             color: rgb(132, 58, 58);
@@ -257,18 +284,18 @@ header{
         }
     }
     .pro:hover{
-        transform: scale(1.1);
-        background: lavenderblush;
+        box-shadow: inset 0 0 10px ;
+        /* transform: scale(1.1); */
+        /* background: lavenderblush; */
 
     }
-    .p1{
-        background: url(./c.jpg);
-    }
+    
 }
 }
 .container4{
+    
     padding: 10vh;
-     width: 100%;
+    width: 100%;
     height: 80vh;
     background: radial-gradient(white,burlywood);
     .certificates{
@@ -298,9 +325,10 @@ header{
 }
 
 .container5{
+   
     padding: 10vh 5vh;
-     width: 100%;
-    height: 60vh;
+    width: 100%;
+    height: 90vh;
     background: radial-gradient(white,burlywood);
     .achive{
         margin: auto;
@@ -319,7 +347,7 @@ header{
     }
     .achive1,.achive2{
          border: solid 2px;
-        width: 60%;
+        width: 90%;
         text-align: justify;
         margin:5vh auto;
         border-radius: 25px;
@@ -360,17 +388,12 @@ header{
     display: flex;
     justify-content: space-evenly;
     img{
-        height: 80px;
+        height: 40px;
         margin: auto;
         border-radius: 20px;
     }
 }
-iframe{
-    margin: 5vh auto;
-    display: block;
-    box-shadow: 0 0 10px black;
 
-}
 }
 
 footer{
@@ -382,6 +405,48 @@ footer{
 }
 footer:hover{
     color: azure;
+}
+
+.img1{
+        background:url(./img1.jpeg) no-repeat center/cover;
+}
+
+.con1{
+   
+    display: flex;
+    
+    .contactme{
+        display: grid;
+        row-gap: 3px;
+        padding: 5vh;
+        width: 100%;
+        input{
+             border-radius: 10px;
+             border: solid 1px white;
+             background: burlywood;
+             display: block;
+             padding: 2vh 0;
+        }
+        button{
+            background: rgb(83, 211, 83);
+            border-radius: 20px;
+        }
+        input::placeholder{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        
+    }
+    iframe{
+    margin-top: 5vh;
+    margin: 5vh;
+    width: 30%;
+    display: block;
+    box-shadow: 0 0 10px black;
+
+}
 }
 /* Desktop */
     .header{
@@ -412,16 +477,20 @@ footer:hover{
     }
 
     .container3{
-        height: 120vh;
+        height: 185vh;
         .pros{
         display: grid;
         grid-template-columns: repeat(2,auto);
+        .c5,.c6{
+            height: 64vh;
+        }
         }
     }
     /* .c1{
         display: none;
     } */
      .container4{
+        height: 100vh;
         .certi{
         width: 70%;
         }

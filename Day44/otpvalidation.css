@@ -1,0 +1,41 @@
+button{
+    padding: 2vh 4vh;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    background: lightgreen;
+    margin-top: 5vh;
+}
+button:hover{
+    box-shadow: 0 0 10px black;
+}
+input{
+    padding: 2vh;
+    display: block;
+    margin: auto;
+    background: lightblue;
+
+}
+input:hover{
+    background: lightgray;
+}
+input::placeholder{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#display{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.container{
+    border: solid 1px;
+    width: 40vh;
+    margin: 5vh auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
