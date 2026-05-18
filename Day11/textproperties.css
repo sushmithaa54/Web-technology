@@ -1,4 +1,14 @@
-.p1{
+h1{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    text-indent: 10px;
+    text-transform: capitalize;
+}
+
+
+
+p{
     text-align: justify;
     width: 90%;
     margin: auto;

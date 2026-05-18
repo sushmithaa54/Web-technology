@@ -40,7 +40,7 @@
      margin: auto;
 }
 .cube{
-    border: solid 2px black;
+    /* border: solid 2px black;
     height: 100px;
     width: 100px;
     border-top:solid 100px red;
@@ -48,16 +48,30 @@
     border-left:solid 100px rgb(0, 255, 30);
     border-right:solid 100px rgb(164, 204, 7);
     background-color:white;
-     margin: auto;
+     margin: auto; */
 
+     border: solid 2px black;
+     height: 100px;
+     width: 100px;
+     border-top: solid 100px yellow;
+     border-left: solid 100px orange;
+     border-bottom:solid 100px rgba(230, 63, 12, 0.779) ;
+     border-right: solid 100px rgb(11, 233, 22);
+    background-color: white;
 }
 .chatbox{
-    border: solid 1px teal;
+    /* border: solid 1px teal;
     height: 100px;
     width: 100px;
     background-color: teal;
     border-radius: 0% 100% 100% 100%;
-    margin: auto;
+    margin: auto; */
+
+    border: solid 2px black;
+    border-radius: 0 50% 50% 50%;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
 }
 .box{
     height: 200px; 
@@ -70,24 +84,24 @@
     /* transformation properties */
 
     /* transform: rotate(180deg); */
-    /* transform: rotateX(60deg);
-    transform: rotateY(60deg);
+     /* transform: rotateX(60deg); */
+    /* transform: rotateY(60deg); */
     transform: skew(-30deg);
-    transform: scale(1.5); */
-    transform: scale(1) skew(30deg);
+     transform: scale(1.3);
+    /* transform: scale(1) skew(30deg); */
 }
 .emoji{
     height: 200px;
     display: block;
     margin: 10vh auto;
     
-/*     
-    filter propertie */
+  
+    /* filter propertie */
 
 
     /* box-shadow: 10px 10px 5px red; */
-    filter: drop-shadow(10px 10px 5px gray);
-    /* filter: brightness(120%); */
+    /* filter: drop-shadow(10px 10px 5px gray); */
+    filter: brightness(120%);
     /* filter: contrast(50%); */
     /* filter: saturate(100%); */
     /* filter: opacity(.5); */

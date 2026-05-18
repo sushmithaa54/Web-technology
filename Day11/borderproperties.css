@@ -7,8 +7,14 @@
     font-style: italic;
     font-family: sans-serif;
     font-variant:normal;
-    border-style: double;
+    border-style: dotted;
     border-width: 5px;
-    border-color: rgb(21, 228, 52);
-    border-radius: 10px;
+    /* border-color: rgb(21, 228, 52); */
+    /* border-radius: 10px; */
+    /* border-top-color: yellow; */
+   /* border-top-left-radius: 100%;
+   border-bottom-right-radius: 100%; */
+   background-color: red;
+   border-radius: 0 100% ;
+
 }

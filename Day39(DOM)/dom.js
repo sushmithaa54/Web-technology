@@ -6,6 +6,7 @@ let ChangeContent = ()=>{
 }
 
 console.log(document.getElementById('abc'))
+
 console.log(document.getElementsByClassName('hi')[2])
 console.log(document.getElementsByTagName('h2')[1])
 console.log(document.getElementsByName('fname'))

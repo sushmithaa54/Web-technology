@@ -17,7 +17,7 @@ header{
     background:rgb(195, 170, 140);
     position: fixed;
     top: 0;
-     z-index: 1000;
+    z-index: 1000;
     display: flex;
     justify-content:space-around;
 
@@ -412,41 +412,69 @@ footer:hover{
 }
 
 .con1{
-   
+  
+    width: 100%;
+    padding-left: 30vh;
     display: flex;
+    justify-content: space-around;
+    column-gap: 10vh;
+
+    .iframe{
+   
+          h3{
+            padding-bottom: 2vh;
+            font-weight: bold;
+            font-size: large;
+            height: 30px;
+            margin-bottom: 1vh;
+            place-content: center;
+            text-align: center;
+            border-radius: 30px;
+            background: linear-gradient(rgb(96, 87, 210) 50%,rgb(193, 210, 98)) 50%;
+            background-clip: text;
+            color: transparent;
+        }
+         iframe{
+    width: 100%;
+    display: block;
+    box-shadow: 0 0 10px black;
+    
+
+}
+    }
     
     .contactme{
         display: grid;
         row-gap: 3px;
         padding: 5vh;
         width: 100%;
-        input{
+
+        
+       form{
+        margin-top: 5vh;
+        width: 80%;
+         input{
              border-radius: 10px;
              border: solid 1px white;
              background: burlywood;
              display: block;
              padding: 2vh 0;
+             width: 100%;
         }
+        
         button{
             background: rgb(83, 211, 83);
             border-radius: 20px;
+            width: 100%;
         }
         input::placeholder{
             text-align: center;
         }
-        h3{
-            text-align: center;
-        }
+      
         
     }
-    iframe{
-    margin-top: 5vh;
-    margin: 5vh;
-    width: 30%;
-    display: block;
-    box-shadow: 0 0 10px black;
-
-}
+       }
+   
 }
 /* Desktop */
     .header{

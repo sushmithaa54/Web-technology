@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background:linear-gradient(lightseagreen,lightgray);
+    h1{
+    text-align: center;
+    /* background-color: brown; */
+    background: linear-gradient(lightgray 50%,lightseagreen 50%);
+    background-clip:text;
+    color: transparent;
+    width: 100%;
+    height: 10vh;
+    place-content: center;
+}
+}
+
+
+#root{
+    background: radial-gradient(lightseagreen,lightgray);
+    padding: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10vh;
+    column-gap: 5vh;
+    .card{
+        border: solid 1px black;
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+        height: 200px;
+        width: 200px;
+        background: lightseagreen;
+        .title{
+            text-align: center;
+        }
+        img{
+            width: 80%;
+            margin: 1vh auto;
+            display: block;
+
+        }
+        .title:hover{
+            color: bisque;
+        }
+        img:hover{
+            transform: scale(1.1);
+            border-radius: 10px;
+        }
+    }
+    .card:hover{
+        background: lightslategray;
+    }
+
+}

@@ -12,6 +12,7 @@ let reset=()=>{
     num=1
 }
 
+
 let timer=(()=>{
     let value=1
 let val=setInterval(()=>{

@@ -53,7 +53,7 @@ h1{
     25%{
         border-radius: 0%;
         width: 400px;
-        background: blue;
+        background: rgb(95, 232, 21);
     }
     50%{
         border-radius: 50%;
